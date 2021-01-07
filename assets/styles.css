@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+    overflow: auto;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #999;
+    background: #FFF;
+
+    text-rendering: optimizeLegibility;
+    vertical-align: baseline;
+}
+
+.fullwidth {
+    width: 100%;
+    padding: 60px 30px;
+    min-width: 280px;
+}
+
+.fullwidth .bodycontainer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#topcontainer {
+
+}
+
+#topcontainer h1 {
+    padding: 6px 0 10px 0;
+    margin-bottom: 0;
+    letter-spacing: -1.5px;
+    color: #444;
+    font-weight: 400;
+}
+
+#topcontainer h1 span {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: -1.4px;
+    font-weight: 300;
+}
+
+#topcontainer p {
+    margin-bottom: 0;
+    color: #999;
+}
+
+#topcontainer p span {
+    font-size: 90px;
+    line-height: 90px;
+    color: #1abc9c;
+}
+
+#countdown {
+    color: #FFF;
+}
+
+#countdown #countdowncont {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#countdown #countdowncont ul#countscript li {
+    float: left;
+    width: 25%;
+    padding: 30px 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#countdown #countdowncont ul#countscript li span.days {
+    font-size: 225px;
+    line-height: 80px;
+    font-weight: 800;
+    color: #000;
+}
+
+#countdown #countdowncont ul#countscript li span.small {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 300;
+    color: #000;
+}
+
+#countdown #countdowncont ul#countscript li p {
+    color: #000;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+}
+
+#inner {
+    display: table;
+    margin: 0 auto;
+}
